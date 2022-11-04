@@ -9,6 +9,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "001-landing@workspace:."
   dependencies:
+    "@fontsource/fredoka-one": ^4.5.9
     "@headlessui/vue": ^1.7.3
     "@heroicons/vue": ^2.0.12
     "@tailwindcss/aspect-ratio": ^0.4.2
@@ -74,6 +75,13 @@ __metadata:
   version: 0.15.12
   resolution: "@esbuild/linux-loong64@npm:0.15.12"
   conditions: os=linux & cpu=loong64
+  languageName: node
+  linkType: hard
+
+"@fontsource/fredoka-one@npm:^4.5.9":
+  version: 4.5.9
+  resolution: "@fontsource/fredoka-one@npm:4.5.9"
+  checksum: 0d4a9927a07a7845d6a1e5155a4f52ed1d84b40ac336e72741f2d6db54d7e00baf4f4c65514d84361194b3a8ec60775c5eee15aeb843d45bfe03d3564845e6c0
   languageName: node
   linkType: hard
 
